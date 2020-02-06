@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang = "pt-br">
+  <head>
+    <meta charset = "UTF-8">
+    <title>Coxitas</title>
+    <link rel = "stylesheet" href = "CSS/estilo.css">
+    <link rel="stylesheet" href="CSS/Fotos.css">
+  </head>
+  <body>
+    <header id = "cabecalho">
+      <div class="conteudo">
+        <figure id = "logo">
+          <img src="Imagens/home_coxinha.png">
+        </figure>
+
+        <h1>As Melhores Coxinhas Da Região</h1>
+        <h2>Venha Experimentar!</h2>
+
+      </div>
+
+
+
+    </header>
+
+    <div id = "Interface">
+
+      <div id = "pedido">
+        <form action="" method="post">
+          <div>
+            <p>Dados do Cliente:</p>
+            <label for="nome">Nome:</label>
+            <input name="nome" required="required" placeholder="Digite seu nome" type="text" id="nome" />
+          </div>
+          <div>
+            <label for="email">E-mail:</label>
+            <input name="email" required="required" placeholder="Digite seu e-mail" type="email" id="email" />
+          </div>
+          <div id="pegar_endereco">
+            <p>Endereço:</p>
+            <div>
+              <label for="rua">Rua:</label>
+              <input name="rua" required="required" placeholder="Digite sua rua" type="text" id="endereco" />
+            </div>
+            <div>
+              <label for="numero">Numero(Nº):</label>
+              <input  name="numero" required="required" placeholder="Digite o número da sua casa" value="" type="number">
+            </div>
+            <div>
+              <label for="">Selecione Seu Bairro</label>
+              <select name="Bairro" required="required">
+                <option selected="selected" value="">Selecione</option>
+                <option value="1">Areia Branca</option>
+                <option value="2">Rusario</option>
+                <option value="3">São José</option>
+                <option value="4">Bairro Novo</option>
+                <option value="5">Esplanada</option>
+                <option value="6">Centro</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <p>Descrição:</p>
+            <label for="msg"></label>
+            <textarea id="msg" placeholder="Descreva como você que o seu lanche, qual sabor, se tem alergia, etc..."></textarea>
+          </div>
+        </form>
+      </div>
+
+      <div id = "album">
+        <p>Observe alguns de nosso produtos:</p>
+        <ul id = "Album_Fotos">
+          <li id = "Foto_1"><span>Foto_1</span></li>
+          <li id = "Foto_2"><span>Foto_2</span></li>
+          <li id = "Foto_3"><span>Foto_3</span></li>
+          <li id = "Foto_4"><span>Foto_4</span></li>
+          <li id = "Foto_5"><span>Foto_5</span></li>
+          <li id = "Foto_6"><span>Foto_6</span></li>
+        </ul>
+      </div>
+
+    </div>
+    <footer id = "Rodape">
+			<p>Copyhight &copy; 2019 by Jamirly Djênys</p>
+			<p><a href = "https://www.facebook.com/profile.php?id=100010475116990" target = "_blank">Facebook</a> |
+				<a href = "https://www.instagram.com/jamirlydjenys/?hl=pt-br" target = "_blank">Instagram</p>
+		</footer>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+ul#Album_Fotos {
+  width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+  list-style: none;
+}
+
+ul#Album_Fotos li {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border: 5px solid white;
+  background-color: yellow;
+}
+ul#Album_Fotos li span {
+  opacity: 0;
+}
+
+ul#Album_Fotos li#Foto_1{
+  background: url("../Imagens/Coxinha_Aberta.jpg");
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+}
+
+ul#Album_Fotos li#Foto_2{
+  background: url("../Imagens/Coxinhas_Sabores.jpg");
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+}
+
+ul#Album_Fotos li#Foto_3{
+  background: url("../Imagens/MelhorComidaBrasileira.jpg");
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+}
+
+ul#Album_Fotos li#Foto_4{
+  background: url("../Imagens/MeuDeusQueFome.jpg");
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+}
+
+ul#Album_Fotos li#Foto_5{
+  background: url("../Imagens/seiscoxinhasforampassear.jpg");
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+}
+
+ul#Album_Fotos li#Foto_6{
+  background: url("../Imagens/Coxinha-de-Batata-Doce-Assada.jpg");
+  background-position: 50% 50%;
+  background-size: 300px 300px;
+}
+
+#logo {
+  float: left;
+  margin-left: -18px;
+  margin-top: -18px;
+}
